@@ -390,6 +390,12 @@ gap: 40PX;
     .four__box__container{
         flex-direction: column;
     }
+   .info__section{
+    flex-direction: column;
+   }
+   .info__section__container__image{
+    display: none;
+   }
 }
 
 /* Mobile (up to 600px) */
@@ -488,6 +494,12 @@ gap: 40PX;
     .four__box__container{
         flex-direction: column;
     }
+    .info__section{
+        flex-direction: column;
+       }
+       .info__section__container__image{
+        display: none;
+       }
 }
 /* tablet */
 @media (min-width: 600px) and (max-width: 768px) {
@@ -586,6 +598,12 @@ gap: 40PX;
         display: grid;
         grid-template-columns: repeat(2, 2fr);
     }
+    .info__section{
+        flex-direction: column;
+       }
+       .info__section__container__image{
+        display: none;
+       }
 }
 
 /* Small Desktop (768px to 1024px) */
